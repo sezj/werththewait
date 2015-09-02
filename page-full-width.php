@@ -50,6 +50,8 @@
 
 
 								<footer class="article-footer">
+								<span class="icon-twitter"></span>
+								<a href="https://www.facebook.com" class="icon-facebook"></a>
 
 								</footer>
 
