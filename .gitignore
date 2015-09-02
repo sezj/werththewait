@@ -1,43 +1,58 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# folders and files to be ignored by git
 
-# Folder config file
-Desktop.ini
+############
+## Bones
+############
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+Bones.esproj/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+############
+## IDEs
+############
 
-# Windows shortcuts
-*.lnk
+*.pydevproject
+.project
+.metadata
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.cproject
+.buildpath
+nbproject/
 
-# =========================
-# Operating System Files
-# =========================
+############
+## OSes
+############
 
-# OSX
-# =========================
+[Tt]humbs.db
+[Dd]esktop.ini
+*.DS_store
+.DS_store?
 
-.DS_Store
-.AppleDouble
-.LSOverride
+############
+## Misc
+############
 
-# Thumbnails
+bin/
+tmp/
+*.tmp
+*.bak
+*.log
+*.[Cc]ache
+*.cpr
+*.orig
+*.php.in
+.idea/
+temp/
 ._*
-
-# Files that might appear on external disk
-.Spotlight-V100
 .Trashes
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+.svn
+
+*.codekit
+*.scssc

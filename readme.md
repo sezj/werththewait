@@ -1,5 +1,5 @@
-# Bones
-A Lightweight Wordpress Development Theme
+# Werth the Wait
+Built on Bones, a Lightweight Wordpress Development Theme
 
 Bones is designed to make the life of developers easier. It's built
 using HTML5 & has a strong semantic foundation.
