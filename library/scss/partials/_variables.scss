@@ -30,18 +30,28 @@ $gray:              #eaedf2;
 $text-color:        #5c6b80;
 $meta-gray:         #9fa6b4;
 
+// to delete
 $tan:               #eceee5;
-
 $green:             #7dd667;
-
 $bones-pink:        #f01d4f;
-$blue:              #2980b9;
 
-$link-color:        $bones-pink;
-$link-hover:        darken($link-color, 9%);
+$blue:              #336699;
+$orange:			#FF4A00;
+
+$link-color:        $orange;
+$link-hover:        lighten($link-color, 20%);
 
 $border-color:      #ccc;
 $disabled-gray:     #cfcfcf;
+
+
+
+
+$light-orange: #FCDFC1;
+$med-orange: #e28f41; // ENG orange - 160over90 palette
+$orange: #FF4A00; // UF orange
+$dark-orange: #B75A29;
+$b-orange: #B75A29; // to remove
 
 
 /*
