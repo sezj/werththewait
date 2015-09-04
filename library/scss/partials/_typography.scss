@@ -47,26 +47,28 @@ FONT FACE (IN YOUR FACE)
 
 // }
 
-@font-face {
-		font-family: 'quadon';
-		src: url('library/fonts/quadon_medium-webfont.eot');
-		src: url('library/fonts/quadon_medium-webfont.eot?#iefix') format('embedded-opentype'),
-				 url('library/fonts/quadon_medium-webfont.woff') format('woff'),
-				 url('library/fonts/quadon_medium-webfont.ttf') format('truetype'),
-				 url('library/fonts/quadon_medium-webfont.svg#quadonmedium') format('svg');
-		font-weight: normal;
-		font-style: normal;
+// @font-face {
+// 		font-family: 'quadon';
+// 		src: url('library/fonts/quadon_medium-webfont.eot');
+// 		src: url('library/fonts/quadon_medium-webfont.eot?#iefix') format('embedded-opentype'),
+// 				 url('library/fonts/quadon_medium-webfont.woff') format('woff'),
+// 				 url('library/fonts/quadon_medium-webfont.ttf') format('truetype'),
+// 				 url('library/fonts/quadon_medium-webfont.svg#quadonmedium') format('svg');
+// 		font-weight: normal;
+// 		font-style: normal;
 
-}
+// }
 
-// icon font
+//icon font
+// try absolute path next
+
 @font-face {
 	font-family: 'icomoon';
-	src: url('library/fonts/icomoon.eot');
-	src: url('library/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('library/fonts/icomoon.woff') format('woff'),
-		url('library/fonts/icomoon.ttf') format('truetype'),
-		url('library/fonts/icomoon.svg#font-name') format('svg');
+	src: url('//test.eng.ufl.edu/wp-content/themes/werththewait/library/fonts/icomoon.eot');
+	src: url('//test.eng.ufl.edu/wp-content/themes/werththewait/library/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('//test.eng.ufl.edu/wp-content/themes/werththewait/library/fonts/icomoon.woff') format('woff'),
+		url('//test.eng.ufl.edu/wp-content/themes/werththewait/library/fonts/icomoon.ttf') format('truetype'),
+		url('//test.eng.ufl.edu/wp-content/themes/werththewait/library/fonts/icomoon.svg#font-name') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -106,9 +108,28 @@ p {
 					font-feature-settings: "liga", "dlig";
 }
 
-// social icons
+// social icons - flat ui icons
+
+
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'quadon';
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+//icomoon
+.icon-facebook,
+.icon-twitter {
+	display:inline-block;
+	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -139,3 +160,4 @@ p {
 .icon-linkedin2:before {
 	content: "\e605";
 }
+//end icomoon

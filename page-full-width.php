@@ -51,7 +51,10 @@
 
 								<footer class="article-footer">
 								<span class="icon-twitter"></span>
+
+								<span class="fui-twitter"></span>
 								<a href="https://www.facebook.com" class="icon-facebook"></a>
+								<a href="https://www.facebook.com" class="fui-facebook"></a>
 
 								</footer>
 
