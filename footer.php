@@ -30,8 +30,7 @@
 
 		<?php if ( is_page_template( 'page-landing.php' ) ) { ?>
 			<div class="bodybg"> 
-				<img src="<?php echo get_template_directory_uri(); ?>/library/images/background-photo.jpg" src-set="<?php echo get_template_directory_uri(); ?>/library/images/background-photo-mobile-devices.jpg 500w, <?php echo get_template_directory_uri(); ?>/library/images/background-photo.jpg 1000w, <?php echo get_template_directory_uri(); ?>/library/images/background-photo.jpg 2000w" alt="" /> 
-				<!-- <img src="<?php echo get_template_directory_uri(); ?>/library/images/background-photo-mobile-devices.jpg" alt="" />  -->
+				<!-- <img src="<?php echo get_template_directory_uri(); ?>/library/images/background-photo-sm.jpg" src-set="<?php echo get_template_directory_uri(); ?>/library/images/background-photo-sm.jpg 500w, <?php echo get_template_directory_uri(); ?>/library/images/background-photo-med.jpg 1000w, <?php echo get_template_directory_uri(); ?>/library/images/background-photo-lg.jpg 2000w" alt="" />  -->
 			</div> 
 		<?php } ?>
 

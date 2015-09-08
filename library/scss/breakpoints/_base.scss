@@ -23,12 +23,22 @@ body {
 	background-color: $gray;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
+	
 
   	a {
 		-webkit-transition: all 0.4s ease;
 		transition: all 0.4s ease;
   	}
+
 }
+body.page-template-page-landing-php {		// landing page template
+
+		// background-image: url(/wp-content/themes/werththewait/library/images/background-photo-sm.jpg);
+		// background-position:center;
+		// background-repeat:no-repeat;
+		// -moz-background-size: cover;
+		// 	background-size: cover;
+	}
 
 /********************
 WORDPRESS BODY CLASSES
@@ -48,23 +58,47 @@ style a page via class
 		text-align: center;
 	}
 	.bodybg { 
-		position: fixed; 
-		top: -50%; 
-		left: -50%; 
-		width: 200%; 
-		// height: 200%;
-		height: 100vh; 
-		img {
-			position: absolute; 
-			top: 0; 
-			left: 0; 
-			right: 0; 
-			bottom: 0; 
-			margin: auto; 
-			min-width: 50%;
-			min-height: 50%;
-		}
+		background-image: url(/wp-content/themes/werththewait/library/images/background-photo-med.jpg);
+		background-position:center;
+		background-repeat:no-repeat;
+		-moz-background-size: cover;
+			background-size: cover;
+		-ms-behavior: url(/wp-content/themes/werththewait/library/css/backgroundsize.min.htc);	// see https://github.com/louisremi/background-size-polyfill#readme
+		behavior: url(/wp-content/themes/werththewait/library/css/backgroundsize.min.htc);
+
+		 position: fixed;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    	width: 200%; 
+		height: 200%;
 	}
+	.pbc-unit-content {
+		// background:none !important;
+	}
+
+	// .bodybg { 
+	// 	position: fixed; 
+	// 	top: -50%; 
+	// 	left: -50%; 
+	// 	width: 200%; 
+	// 	// height: 200%;
+	// 	height: 100vh; 
+	// 	img {
+	// 		position: absolute; 
+	// 		top: 0; 
+	// 		left: 0; 
+	// 		right: 0; 
+	// 		bottom: 0; 
+	// 		margin: auto; 
+	// 		min-width: 50%;
+	// 		min-height: 50%;
+	// 	}
+	// }
 	.entry-content {
 		p {
 			font-size: 3em;
