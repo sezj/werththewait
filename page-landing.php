@@ -18,7 +18,7 @@
 
 								<header class="article-header">
 
-									<h1 class="page-title"><?php the_title(); ?></h1>
+									<!-- <h1 class="page-title"><?php the_title(); ?></h1> -->
 
 								</header>
 
@@ -28,11 +28,12 @@
 
 
 								<footer class="article-footer">
+									<h1 class="tagline">Powering the New Engineer<br />to Transform the Future</h1>
 
 									<ul class="social-icons">
-										<li><a href="https://www.facebook.com" class="icon-facebook" title="Facebook"></a></li>		<!-- link to FB event -->	
-										<li><a href="https://www.twitter.com" class="icon-twitter" title="#WerthTheWait on Twitter"></a></li>
-										<li><a href="https://www.instagram.com" class="icon-instagram" title="#WerthTheWait on Instagram"></a></li>	<!-- link to Instagram hashtag -->
+										<li><a href="https://www.facebook.com/gatorengineering" class="icon-facebook" title="Find out more on Facebook"></a></li>		<!-- link to FB event -->	
+										<li><a href="https://twitter.com/hashtag/WerthTheWait" class="icon-twitter" title="#WerthTheWait on Twitter"></a></li>
+										<li><a href="https://instagram.com/explore/tags/werththewait/" class="icon-instagram" title="#WerthTheWait on Instagram"></a></li>	<!-- link to Instagram hashtag -->
 									</ul>
 
 								</footer>

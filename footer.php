@@ -18,7 +18,9 @@
 						)); ?>
 					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> University of Florida College of Engineering</p>
+					<a href="https://eng.ufl.edu" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/coe-logo.png" class="coe-logo" alt="University of Florida College of Engineering" title="University of Florida College of Engineering" /></a>
+
+					<a href="https://eng.ufl.edu" class="icon-gator-engineering" title="Gator Engineering"><img src="<?php echo get_template_directory_uri(); ?>/library/images/ge-logo.png" class="ge-logo" alt="University of Florida College of Engineering" title="University of Florida College of Engineering" /></a>
 
 				</div>
 
