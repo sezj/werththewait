@@ -20,7 +20,7 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: $gray;
+	background-color: $blue;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
 	
@@ -76,7 +76,7 @@ style a page via class
 	}
 	.bodybg { 
 		background-image: url(/wp-content/themes/werththewait/library/images/background-sm.png);
-		background-position:center;
+		background-position: top center;
 		background-repeat:no-repeat;
 		-moz-background-size: cover;
 			background-size: cover;
@@ -674,8 +674,8 @@ FOOTER STYLES
 		letter-spacing: 0.15em;
 		border-top: 2px solid $white;
 		border-bottom: 2px solid $white;
-		background: rgba(255,74,0,.8);
-		padding:1em 0;
+		background: $orange;
+		padding:0.75em 0;
 	}
 	.social-icons {
 		margin-top:3em;
