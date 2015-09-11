@@ -56,3 +56,22 @@ header.php file to see what they are:
 .lt-ie8 .class { ... }
 
 */
+.lt-ie9 {
+	.page-template-page-landing-php {
+		.bodybg {		// landing page template
+		background-image: url(/wp-content/themes/werththewait/library/images/background-med.png);
+		}
+		.entry-content {
+			p {
+				font-size: 1.25em;
+			}
+		}
+		.scd-label {
+		padding: 2px 15px 0 15px;
+		}
+		.tagline {
+			font-size: 2em;
+			line-height: 1em;
+		}
+	}
+}

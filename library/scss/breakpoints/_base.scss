@@ -58,21 +58,21 @@ style a page via class
 		text-align: center;
 	}
 	.scd-all-wrapper {
-		color: $orange;
-		.scd-label {
-			color:$white;
-			border: 2px solid $orange;
-			padding: 2px 5px 0 5px;
-		}
+		height:180px;
 	}
-	#smartcountdown-6952 {
-		
-		.spinner {
-			// display:none !important;
-			// background:none;
-			// margin:0;
-			// height:200px;
-		}
+	.spinner {
+		height:200px;
+	}
+	.scd-title {
+		margin: 1em 0;
+	}
+	.scd-digits {
+		color: $orange;
+	}
+	.scd-label {
+		color:$white;
+		border: 2px solid $orange;
+		padding: 2px 5px 0 5px;
 	}
 	.bodybg { 
 		background-image: url(/wp-content/themes/werththewait/library/images/background-sm.png);
