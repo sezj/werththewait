@@ -57,6 +57,21 @@ header.php file to see what they are:
 
 */
 .lt-ie9 {
+		.spinner {
+		background-size: 48px 48px;
+		background: url(/wp-content/themes/werththewait/library/images/loading.gif) 50% 50% no-repeat;
+	 	width:100%; 
+	 	height:200px;
+	 	margin:0;
+	 	opacity: .8;
+		filter: alpha(opacity=80);	// IE8
+		left:0px; 
+	 	top:0px; 
+	 	border: none;
+	 	span {
+	 		border-top: none;
+	 	}
+	 }
 	.page-template-page-landing-php {
 		.bodybg {		// landing page template
 		// background-image: url(/wp-content/themes/werththewait/library/images/background-med.png);
