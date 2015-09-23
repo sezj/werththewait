@@ -73,8 +73,11 @@ header.php file to see what they are:
 	 	}
 	 }
 	.page-template-page-landing-php {
-		.bodybg {		// landing page template
-		// background-image: url(/wp-content/themes/werththewait/library/images/background-med.png);
+		h1, .h1 {
+			font-size: 1.5em;
+			line-height: 1.333em;
+			width: 60%;
+			margin: 0 auto;
 		}
 		.entry-content {
 			p {
@@ -85,8 +88,8 @@ header.php file to see what they are:
 		padding: 2px 15px 0 15px;
 		}
 		.tagline {
-			font-size: 2em;
-			line-height: 1em;
+			font-size: 1em;
+			line-height: 1.5em;
 		}
 	}
 }

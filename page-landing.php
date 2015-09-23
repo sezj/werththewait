@@ -28,7 +28,7 @@
 
 
 								<footer class="article-footer">
-									<h1 class="tagline">Powering the New Engineer<br />to Transform the Future</h1>
+									<h2 class="tagline">Powering the New Engineer to Transform the Future</h2>
 
 									<ul class="social-icons">
 										<li><a href="https://www.facebook.com/gatorengineering" class="icon-facebook" title="Find out more on Facebook"></a></li>		<!-- link to FB event -->	
