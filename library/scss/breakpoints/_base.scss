@@ -124,9 +124,14 @@ style a page via class
 	.entry-content {
 		padding: 0 1.5em 1.5em 1.5em;
 		p {
+			text-align:left;
 			font-size: 1em;
-			line-height: 1.25em;
+			line-height: 1.5em;
 			margin: 1em 0;
+			strong {
+				font-size: 2em; 
+				font-weight: 900;
+			}
 		}
 	}
 }
@@ -264,16 +269,19 @@ POSTS & CONTENT STYLES
 
 		/* entry content */
 		.entry-content {
-			padding: 1.5em 1.5em 0;
+			// padding: 1.5em 1.5em 0;
 
 			p {
 				margin: 0 0 1.5em;
 			}
 
 			img {
-				margin: 0 0 1.5em 0;
+				margin: 1em 0;
 				max-width: 100%;
 				height: auto;
+				.alignleft {
+					float:none;
+				}
 			}
 
 		} /* end .entry-content */

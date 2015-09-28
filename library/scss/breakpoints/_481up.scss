@@ -24,14 +24,15 @@ them in here, they won't work.
 
 .page-template-page-landing-php {
 	h1, .h1 {
-		font-size: 1.5em;
-		line-height: 1.333em;
-		width: 60%;
-		margin: 0 auto;
+		font-size: 2em;
+		line-height: 1.5em;
+
 	}
 	.entry-content {
+		width: 60%;
+		margin: 0 auto;
 		p {
-			font-size: 1.25em;
+			font-size: 1em;
 		}
 	}
 	.scd-label {
@@ -56,6 +57,7 @@ POSTS & CONTENT STYLES
 	/* at this larger size, we can start to align images */
 	.alignleft, img.alignleft {
 		margin-right: 1.5em;
+		margin-left: 1.5em;
 		display: inline;
 		float: left;
 	}
